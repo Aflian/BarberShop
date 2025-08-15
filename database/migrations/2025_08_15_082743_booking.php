@@ -11,7 +11,21 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+        Schema::create('bookings', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('staff_id')->nullable()->constrained('staff')->nullOnDelete();
+            $table->foreignId('service_id')->constrained()->cascadeOnDelete();
+            $table->date('date');
+            $table->time('start_time');
+            $table->time('end_time');
+            $table->enum('status', ['pending','confirmed','in_service','completed','cancelled'])->default('pending');
+            $table->text('notes')->nullable();
+            $table->unsignedInteger('total_price');
+            $table->timestamps();
+
+            $table->unique(['staff_id','date','start_time'], 'no_double_booking');
+        });
     }
 
     /**
@@ -19,6 +33,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('bookings');
     }
 };
