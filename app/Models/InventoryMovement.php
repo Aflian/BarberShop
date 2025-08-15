@@ -19,4 +19,8 @@ class InventoryMovement extends Model
     {
         return $this->belongsTo(InventoryItem::class, 'inventory_item_id');
     }
+    public function reference()
+    {
+        return $this->morphTo();
+    }
 }
