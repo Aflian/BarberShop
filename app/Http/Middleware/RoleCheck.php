@@ -15,6 +15,9 @@ class RoleCheck
      */
     public function handle(Request $request, Closure $next): Response
     {
+        if (! $request->user() || $request->user()->role !== 'admin') {
+            abort(403, 'Access denied. Only admin can access this page.');
+        }
         return $next($request);
     }
 }
