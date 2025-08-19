@@ -10,16 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary-gold: #D4AF37;
-            --secondary-gold: #F4D03F;
-            --dark-charcoal: #0D1117;
-            --light-charcoal: #1C1F26;
-            --accent-white: #FFFFFF;
-            --text-gray: #E6EDF3;
-            --border-gray: #30363D;
-            --success-green: #28A745;
-            --warning-orange: #FD7E14;
-        }
+    --primary-gold: #00E6FF;       /* Neon Blue utama (ganti aksen gold jadi neon) */
+    --secondary-gold: #33AFFF;     /* Electric Blue lebih lembut */
+    --dark-charcoal: #0A0F1C;      /* Dark navy midnight (background utama) */
+    --light-charcoal: #111D2F;     /* Biru gelap untuk variasi section */
+    --accent-white: #E6F7FF;       /* Putih kebiruan neon */
+    --text-gray: #B3D9FF;          /* Biru pucat untuk teks */
+    --border-gray: #1F3B54;        /* Biru keabu-abuan (border) */
+    --success-green: #00FF9D;      /* Neon Green biar matching */
+    --warning-orange: #FF6B35;     /* Neon Orange */
+}
+
 
         * {
             margin: 0;

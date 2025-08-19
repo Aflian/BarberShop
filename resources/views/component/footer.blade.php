@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-4">
-                <h5 class="font-display text-primary mb-3">Royal Barber</h5>
+                <h5 class="font-display text-primary mb-3">Enjoy Barber</h5>
                 <p>Barbershop premium yang menghadirkan pengalaman grooming terbaik dengan sentuhan modern dan klasik untuk pria yang menghargai kualitas.</p>
             </div>
             <div class="col-lg-4">
@@ -38,7 +38,7 @@
         <hr class="my-4 border-secondary">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <p class="mb-0 ">&copy; 2025 Royal Barber. All rights reserved.</p>
+                <p class="mb-0 ">&copy; 2025 Enjoy Barber. All rights reserved.</p>
             </div>
             <div class="col-md-6 text-md-end">
                 <p class="mb-0 ">Made with <i class="fas fa-heart text-danger"></i> in Pekanbaru</p>

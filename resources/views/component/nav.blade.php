@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
     <div class="container">
-        <a class="navbar-brand" href="#"><i class="fas fa-cut me-2"></i>Royal Barber</a>
+        <a class="navbar-brand" href="#">
+            <img class="rounded-circle" width="80" height="80" src="{{ asset('logo.jpg') }}" alt="">
+            Enjoy Barber</a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>

@@ -7,8 +7,8 @@
                      alt="Royal Barber Interior" class="img-fluid rounded-3 shadow-lg">
             </div>
             <div class="col-lg-6" data-aos="fade-left">
-                <h2 class="section-title text-start mb-4">Tentang Royal Barber</h2>
-                <p class="lead">Sejak 2015, Royal Barber telah menjadi destinasi premium bagi pria modern yang menginginkan pengalaman grooming terbaik.</p>
+                <h2 class="section-title text-start mb-4">Tentang Enjoy Barber</h2>
+                <p class="lead">Sejak 2015, Enjoy Barber telah menjadi destinasi premium bagi pria modern yang menginginkan pengalaman grooming terbaik.</p>
                 <p>Dibangun dengan fondasi keahlian klasik dan sentuhan modern, setiap kunjungan ke Royal Barber adalah perjalanan menuju transformasi gaya dan kepercayaan diri. Kami percaya bahwa potongan rambut bukan hanya tentang penampilan, tetapi juga tentang pengalaman dan perasaan yang Anda dapatkan.</p>
                 <div class="mt-4">
                     <h5 class="mb-3">Mengapa Memilih Kami?</h5>
