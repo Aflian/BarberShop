@@ -21,6 +21,7 @@ class InventoryItemResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
     protected static string | UnitEnum | null $navigationGroup = 'Inventaris';
+    protected static ?string $navigationLabel = 'Inventaris Toko';
     public static function form(Schema $schema): Schema
     {
         return InventoryItemForm::configure($schema);

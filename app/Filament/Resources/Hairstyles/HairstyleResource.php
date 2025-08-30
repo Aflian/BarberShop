@@ -22,6 +22,7 @@ class HairstyleResource extends Resource
     protected static string|BackedEnum|null $navigationIcon = Heroicon::Scissors;
 
     protected static string | UnitEnum | null $navigationGroup = 'Layanan';
+    protected static ?string $navigationLabel = 'Model Rambut';
     public static function form(Schema $schema): Schema
     {
         return HairstyleForm::configure($schema);

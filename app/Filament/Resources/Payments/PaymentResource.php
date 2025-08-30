@@ -21,6 +21,7 @@ class PaymentResource extends Resource
 
     protected static string|BackedEnum|null $navigationIcon = Heroicon::OutlinedRectangleStack;
     protected static string | UnitEnum | null $navigationGroup = 'Transaksi';
+    protected static ?string $navigationLabel = 'Pembayaran';
     public static function form(Schema $schema): Schema
     {
         return PaymentForm::configure($schema);

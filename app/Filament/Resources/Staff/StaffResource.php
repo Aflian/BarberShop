@@ -23,7 +23,7 @@ class StaffResource extends Resource
     protected static string|BackedEnum|null $navigationIcon = Heroicon::User;
 
     protected static ?string $recordTitleAttribute = 'Manajemen Staff';
-
+    protected static ?string $navigationLabel = 'Manajemen Staff';
     public static function form(Schema $schema): Schema
     {
         return StaffForm::configure($schema);
